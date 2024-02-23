@@ -39,9 +39,9 @@ html {
 
 #terminal {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 50%; /* Adjust based on your design */
+  top: 90%;
+  left: 90%;
+  width: 90%; /* Adjust based on your design */
   height: 90%; /* Adjust based on your design */
   transform: translate(-50%, -50%);
   background-color: #012456;
