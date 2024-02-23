@@ -38,16 +38,18 @@ html {
 
 
 #terminal {
-  position: fixed; /* Use fixed to keep it fixed on the screen */
-  top: 0; /* Position it at the top */
-  right: 0; /* Position it at the right */
-  width: 20%; /* Adjust based on your design */
-  height: 100vh; /* Adjust based on your design */
-  padding: 10px; /* Add padding for better appearance */
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  position: absolute;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
+  width: 20%;
+  height: 50%;
   background-color: #012456;
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
 }
+
 
 /* courier-prime-latin-400-normal */
 @font-face {
