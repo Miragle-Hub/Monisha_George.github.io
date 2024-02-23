@@ -38,11 +38,13 @@ html {
 
 
 #terminal {
-  position: absolute;
-  top: 90%;
-  left: 90%;
-  width: 90%; /* Adjust based on your design */
-  height: 90%; /* Adjust based on your design */
+  position: fixed; /* Use fixed to keep it fixed on the screen */
+  top: 0; /* Position it at the top */
+  right: 0; /* Position it at the right */
+  width: 20%; /* Adjust based on your design */
+  height: 100vh; /* Adjust based on your design */
+  padding: 10px; /* Add padding for better appearance */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
   transform: translate(-50%, -50%);
   background-color: #012456;
 }
